@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>A Meme is a Terrible thing to waste</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<!--Project from Rithm School: create a meme generator in browser
+    -HTML, CSS, vanilla JS only!!!
+    -form that accepts: completed 1/15/2020
+        *url of image
+        *top text
+        *bottom text
+        *submit button
+    -hit submit button => div with new meme appended to DOM && form cleared
+        *multiple submits adds each subsequent meme
+    -user should be able to clear each individual meme VIA JS
+    -style it pretty
+-->
+<body>
+    <div>
+        <p>Everyone has seen a meme. 
+        If you're more visual than just a simple pun, memes are the perfect art form for you! <br>
+        Here's a Meme Generator that'll help you give your funny some form.
+        </p>
+    </div>
+    <form action="#" id="memePuts">
+            <label for="imageURL">Enter URL for image</label>
+            <input type="text" id="imageURL">
+            <br>
+            <label for="topText">Enter top text of meme</label>
+            <input type="text" id="topText">
+            <br>
+            <label for="bottomText">Enter bottom text of meme</label>
+            <input type="text" id="bottomText">
+            <br>
+            <input type="submit" value="Make that Meme">
+    </form>
+    <div>Don't like a meme you've made? Click on it.</div>
+    <ul id="memeGallery"></ul>   
+
+
+<script src=script.js>
+</script>
+</body>
+</html>
